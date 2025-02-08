@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "backend": "cd backend && npm run start",
+    "frontend": "cd web && npx serve -s dist -p 3004",
+    "start": "npm run backend & npm run frontend"
+  }
+}
